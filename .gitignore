@@ -1,3 +1,5 @@
 .venv
 data
-sales_predictor.joblib
+all_stores_products_predicted_units.csv
+predicted_units.csv
+random_forest_model.pkl
