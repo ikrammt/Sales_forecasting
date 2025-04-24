@@ -1,4 +1,4 @@
-# Sales Forecasting Using Random Forest
+# Sales Forecasting Using Random Forest & XGBoost
 
 This project develops a machine learning pipeline to predict **daily sales (in units)** for each product at each store using a Random Forest Regressor. The goal is to enable **accurate demand forecasting**, supporting better inventory planning and business growth.
 
