@@ -36,38 +36,11 @@ Predict the **number of units sold** on a daily basis for each product-store com
 
 ---
 
-## Model
-
-### Random Forest Regressor
-- **Library**: `scikit-learn`
-- **Parameters**:
-  - `n_estimators=200`
-  - `max_depth=10`
-  - `random_state=42`
-
-### Evaluation Metrics
+## Evaluation Metrics
 - **MAE**: Mean Absolute Error
 - **RMSE**: Root Mean Squared Error
 - **R² Score**: Proportion of variance explained
 - **Naive Baseline**: Compared to using `Lag_1_Day` as prediction
-
----
-
-## Model Performance
-
-| Metric       | Value      |
-|--------------|------------|
-| MAE          | 0.06 units |
-| RMSE         | 0.24 units |
-| R² Score     |0.8948      |
-| Naive MAE    | 0.13 units |
-| Improvement  | 54% over naive baseline |
-
-### Cross-Validation Results (5 Folds)
-
-- **Avg MAE**: 0.0631 ± 0.0098
-- **Avg RMSE**: 0.2522 ± 0.0342
-- **Avg R² Score**: 0.9095 ± 0.0183
 
 ## How to Run
 
